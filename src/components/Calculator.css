@@ -5,10 +5,13 @@ button{
     border: none;
     border-radius: 2em;
     margin: 0.3em;
+    transform: scale(1);
 }
 
 button:hover{
     cursor: pointer;
+    transition: all ease 0.5s;
+    transform: scale(1.1);
 
 }.wrapper{
 background-color: black;
